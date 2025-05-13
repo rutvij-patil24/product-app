@@ -1,0 +1,51 @@
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #2c3e50;
+  }
+
+  p {
+    color: #555;
+    margin-bottom: 0.8rem;
+  }
+
+  strong {
+    font-size: 1.1rem;
+    color: #e67e22; // accent price color
+    margin-right: 1rem;
+  }
+
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  
+    &:focus {
+      outline: 2px solid #2980b9;
+      outline-offset: 2px;
+    }
+  }
+  
+}

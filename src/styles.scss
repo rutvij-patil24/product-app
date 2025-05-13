@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f9fafb;
+    color: #333;
+  }
+  
+  h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
